@@ -23,14 +23,14 @@ main{
 }
 
 .X{
-  background-image: url("x.jpg");
+  background-image: url("img/player_X_symbol.jpg");
   background-repeat: no-repeat;
   background-size:contain;
   background-position: center;
 }
 
 .O{
-  background-image: url("o.jpg");
+  background-image: url("img/player_O_symbol.jpg");
   background-repeat: no-repeat;
   background-size:contain;
   background-position: center;
