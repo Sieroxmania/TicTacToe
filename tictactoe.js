@@ -1,11 +1,3 @@
-/*** Disclaimer
- * Generell habe ich versucht mich an folgende Prinzipein zu halten:
- * Wiederholung vermeiden --> Ggf. Auslagerung von Code in seperate Funktionen
- * Logik einfach halten, besser Lesbarkeit und Verstädnlichkeit
- * Keine unnötigen Kommentare, dienen lediglich zur Lösung der Aufgabe (Erlaeuterung CCD)
- * Source: https://github.com/flowforfrank/tic-tac-toe
- */
-
 /**
  * Objekt zur Speicherung des jeweils aktuellen Zustands vom Spiel
  * Bezeichnung der Objekt-Variablen erzeugen keinen zusätzlichen Kontext (e.g. game.isGamePaused)
