@@ -1,0 +1,54 @@
+body {
+	margin: 0;
+}
+
+main{
+  margin:5px;
+}
+
+.game-field {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 65vw;
+	height: 65vh;
+
+  }
+
+.cell {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.X{
+  background-image: url("x.jpg");
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-position: center;
+}
+
+.O{
+  background-image: url("o.jpg");
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-position: center;
+}
+
+.game-display{
+  margin-top:20px;
+  width: 65vw;
+  background-color: black;
+}
+
+.game-status{
+  font-weight: bold;
+  color:white;
+  padding:10px;
+}
+
+.btn-restart{
+  padding:5px;
+  margin:10px;
+}
